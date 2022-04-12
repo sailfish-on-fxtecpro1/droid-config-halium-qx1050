@@ -48,9 +48,9 @@ Requires: mapplauncherd-booster-silica-qt5-media
 #Requires: xkeyboard-config-pro1
 
 #Add FP support
-Requires: sailfish-fpd-community
-Requires: sailfish-devicelock-fpd
-Requires: droid-fake-crypt
+#Requires: sailfish-fpd-community
+#Requires: sailfish-devicelock-fpd
+#Requires: droid-fake-crypt
 
 %description -n patterns-sailfish-device-configuration-halium-qx1050
 Pattern with packages for halium-qx1050 configurations

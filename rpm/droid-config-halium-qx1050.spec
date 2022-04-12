@@ -18,6 +18,9 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
+Provides: ofono-configs-binder
+Provides: ofono-configs
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-halium-qx1050.inc
 %include patterns/patterns-sailfish-device-configuration-halium-qx1050.inc

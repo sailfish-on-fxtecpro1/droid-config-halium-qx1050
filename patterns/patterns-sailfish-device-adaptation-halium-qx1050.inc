@@ -10,7 +10,7 @@ Requires: droid-config-halium-qx1050-policy-settings
 Requires: droid-config-halium-qx1050-preinit-plugin
 Requires: droid-config-halium-qx1050-flashing
 Requires: droid-config-halium-qx1050-bluez5
-Requires: droid-hal-version-halium-qx1050
+Requires: droid-hal-version-halium
 
 Requires: qt5-plugin-generic-evdev
 

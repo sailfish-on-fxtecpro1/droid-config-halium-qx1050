@@ -26,7 +26,7 @@ parse_mount_flags() {
     options=""
     for i in $(echo $org_options | tr "," "\n"); do
         [[ "$i" =~ "context" ]] && continue
-        options+=$i","
+        options=$options$i","
     done
     options=${options%?}
     echo $options

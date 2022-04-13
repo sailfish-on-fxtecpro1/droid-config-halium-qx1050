@@ -19,6 +19,9 @@ Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
+# Halium
+Requires: lxc
+
 # Bluetooth
 Requires: bluez5-tools
 Requires: bluebinder

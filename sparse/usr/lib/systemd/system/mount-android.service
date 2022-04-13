@@ -1,0 +1,11 @@
+[Unit]
+Description=Mount vendor and other device partitions from fstab in there
+DefaultDependencies=no
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/droid/mount-android.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=local-fs.target

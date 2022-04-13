@@ -1,0 +1,12 @@
+[Unit]
+Description=IPA firmware loader
+After=mount-android.service
+Before=connman.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/sh -c "[ -e /dev/ipa ] && [ -f /vendor/firmware/ipa_fws.mdt ] && echo 1 > /dev/ipa"
+
+[Install]
+WantedBy=network.target

@@ -77,7 +77,7 @@ Requires: rfkill
 #Requires: jolla-devicelock-plugin-encsfa
 
 # Enable home encryption
-Requires: sailfish-device-encryption
+#Requires: sailfish-device-encryption
 
 # For GPS
 Requires: geoclue-provider-hybris

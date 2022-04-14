@@ -1,0 +1,12 @@
+[Unit]
+Description=WLAN Assistant
+After=droid-hal-init.service
+
+[Service]
+Type=basic
+Restart=always
+ExecStart=/vendor/bin/wlan_assistant
+
+[Install]
+WantedBy=multi-user.target
+ 

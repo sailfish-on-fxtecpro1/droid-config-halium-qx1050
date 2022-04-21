@@ -21,6 +21,7 @@ Requires: libhybris-libwayland-egl
 
 # Halium
 Requires: lxc
+Requires: halium-android-rootfs
 
 # Bluetooth
 Requires: bluez5-tools

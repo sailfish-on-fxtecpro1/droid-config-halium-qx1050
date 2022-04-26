@@ -60,8 +60,8 @@ Requires: gstreamer1.0-plugins-good
 Requires: gstreamer1.0-plugins-base
 Requires: gstreamer1.0-plugins-bad
 Requires: nemo-gstreamer1.0-interfaces
-#Requires: gstreamer1.0-droid
-#Requires: gmp-droid
+Requires: gstreamer1.0-droid
+Requires: gmp-droid
 
 # This is needed for notification LEDs
 Requires: mce-plugin-libhybris

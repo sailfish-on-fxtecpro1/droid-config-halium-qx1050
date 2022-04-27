@@ -11,7 +11,6 @@ Requires: patterns-sailfish-ui
 # jolla-rnd-device will enable usb-moded even when UI is not yet
 # brought up (useful during development, available since update10)
 Requires: jolla-rnd-device
-#End sailfish-porter-tools
 
 Requires: sailfish-content-graphics-z1.5
 
@@ -48,8 +47,8 @@ Requires: mapplauncherd-booster-silica-qt5-media
 #Requires: xkeyboard-config-pro1
 
 #Add FP support
-#Requires: sailfish-fpd-community
-#Requires: sailfish-devicelock-fpd
+Requires: sailfish-fpd-community
+Requires: sailfish-devicelock-fpd
 #Requires: droid-fake-crypt
 
 %description -n patterns-sailfish-device-configuration-halium-qx1050

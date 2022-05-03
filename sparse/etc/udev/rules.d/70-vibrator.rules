@@ -1,0 +1,2 @@
+SUBSYSTEM=="leds", KERNEL=="vibrator", ACTION=="add|change", RUN+="/bin/chgrp -R input /sys/class/leds/vibrator/", RUN+="/bin/chmod -R g+w /sys/class/leds/vibrator/"
+

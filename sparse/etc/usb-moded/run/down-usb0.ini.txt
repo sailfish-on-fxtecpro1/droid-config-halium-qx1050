@@ -1,0 +1,5 @@
+[info]
+name = down-usb0.service
+mode = developer_mode
+systemd = 1
+post = 0

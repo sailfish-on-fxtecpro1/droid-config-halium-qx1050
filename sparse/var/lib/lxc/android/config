@@ -29,4 +29,10 @@ lxc.mount.entry = /firmware firmware bind rbind,optional 0 0
 lxc.mount.entry = /odm odm bind bind,optional 0 0
 lxc.mount.entry = /mnt mnt bind rbind 0 0
 lxc.mount.entry = /apex apex bind bind,optional 0 0
+
+#Bind mount over some RC files to clean up noisy logs
 lxc.mount.entry = /var/lib/lxc/android/init.rc system/etc/init/hw/init.rc bind bind,optional 0 0
+lxc.mount.entry = /var/lib/lxc/android/init.qcom.usb.rc vendor/etc/init/hw/init.qcom.usb.rc bind bind,optional 0 0
+lxc.mount.entry = /var/lib/lxc/android/init.qcom.rc vendor/etc/init/hw/init.qcom.rc bind bind,optional 0 0
+lxc.mount.entry = /dev/null vendor/etc/init/init.time_daemon.rc bind bind,optional 0 0
+

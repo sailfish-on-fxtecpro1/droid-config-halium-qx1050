@@ -20,6 +20,7 @@
 
 Provides: ofono-configs-binder
 Provides: ofono-configs
+Requires: droid-config-halium
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-halium-qx1050.inc

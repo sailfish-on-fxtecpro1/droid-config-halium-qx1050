@@ -1,1 +1,2 @@
 /usr/bin/droid/droid-hal-startup.sh
+/usr/lib/systemd/system/droid-hal-init.service

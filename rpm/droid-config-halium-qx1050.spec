@@ -1,7 +1,7 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device halium-qx1050
+%define device qx1050
 %define vendor fxtec
 
 %define vendor_pretty FxTec

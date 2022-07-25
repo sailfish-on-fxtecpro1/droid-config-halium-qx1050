@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup home image
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/droid/setup-home.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=local-fs.target

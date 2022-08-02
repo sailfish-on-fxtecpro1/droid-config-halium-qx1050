@@ -80,8 +80,8 @@ Requires: rfkill
 # Enable home encryption
 #Requires: sailfish-device-encryption
 #Requires: droid-hwcrypt
-#Requires: sailfish-device-encryption-community
-#Requires: sailfish-device-encryption-community-droid
+Requires: sailfish-device-encryption-community
+Requires: sailfish-device-encryption-community-droid
 
 # For GPS
 Requires: geoclue-provider-hybris

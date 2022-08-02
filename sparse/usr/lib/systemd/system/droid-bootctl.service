@@ -8,4 +8,3 @@ ExecStart=/bin/sh /usr/bin/droid/droid-bootctl.sh
 
 [Install]
 WantedBy=graphical.target actdead.target
- 

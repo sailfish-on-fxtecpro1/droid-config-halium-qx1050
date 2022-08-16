@@ -1,9 +1,7 @@
 %package -n patterns-sailfish-device-adaptation-halium-qx1050
 Summary: Sailfish HW Adaptation halium-qx1050
 
-#Requires: droid-hal-halium-qx1050
-#Requires: droid-hal-halium-qx1050-img-boot
-#Requires: droid-hal-halium-qx1050-kernel-modules
+Requires: kernel-adaptation-halium-qx1050
 Requires: droid-config-halium-qx1050-sailfish
 Requires: droid-config-halium-qx1050-pulseaudio-settings
 Requires: droid-config-halium-qx1050-policy-settings

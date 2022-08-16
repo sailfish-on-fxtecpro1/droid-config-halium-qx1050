@@ -1,0 +1,2 @@
+[desktop/sailfish/compositor]
+display_cursor=true

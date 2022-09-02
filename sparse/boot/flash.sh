@@ -15,18 +15,17 @@ $(tput setaf 2)fastboot found, proceeding.$(tput sgr0)"
 fi
 
 echo "
-$(tput setaf 2)Be aware, the flashing process might take up to 10 minutes.$(tput sgr0)
+$(tput setaf 220)Be aware, the flashing process might take up to 10 minutes.
+The screen is expected to go black. This is fine, flashing continues.$(tput sgr0)
+
+$(tput setaf 2)Initiating reboot to fastbootd.$(tput sgr0)
 "
 fastboot reboot fastboot
 
 fastboot $* getvar product 2>&1 | grep "^product: *QX1050"
 if [ $? -ne 0 ] ; then
-	echo "Checking for bengal device";
-	fastboot $* getvar product 2>&1 | grep "^product: *bengal"
-	if [ $? -ne 0 ] ; then
-		echo "$(tput setaf 1)Mismatched image and device$(tput sgr0)";
-		exit 1;
-	fi
+	echo "$(tput setaf 1)Mismatched image and device$(tput sgr0)";
+	exit 1;
 fi
 
 handle_error()

@@ -1,0 +1,12 @@
+[Unit]
+Description=Misc setup
+After=local-fs.target
+Before=user@.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/droid/droid-misc.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical.target

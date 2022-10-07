@@ -5,7 +5,7 @@ Before=user@.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/droid/droid-misc.sh
+ExecStart=/bin/sh /usr/bin/droid/droid-misc.sh
 RemainAfterExit=yes
 
 [Install]

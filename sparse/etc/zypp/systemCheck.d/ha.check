@@ -5,3 +5,6 @@ requires:droid-config-@DEVICE@
 requires:libhybris-libEGL
 requires:libhybris-libGLESv2
 requires:libhybris-libwayland-egl
+requires:droid-hal-version-@DEVICE@
+requires:patterns-sailfish-device-adaptation-@DEVICE@
+requires:patterns-sailfish-device-configuration-@DEVICE@

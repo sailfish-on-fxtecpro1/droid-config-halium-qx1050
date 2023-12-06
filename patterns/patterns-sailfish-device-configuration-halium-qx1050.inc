@@ -54,6 +54,24 @@ Requires: sailfish-devicelock-fpd
 #WLAN Suspend
 Requires: sailfish-connman-plugin-suspend
 
+#Debug tools
+Recommends: vi
+Recommends: strace
+Recommends: gdb
+Recommends: mce-tools
+
+#Sailfish porter tools
+Recommends: jolla-developer-mode
+Recommends: sailfishsilica-qt5-demos
+Recommends: busybox-static
+Recommends: net-tools
+Recommends: openssh-clients
+Recommends: openssh-server
+Recommends: vim-enhanced
+Recommends: zypper
+Recommends: strace
+Recommends: jolla-rnd-device
+
 %description -n patterns-sailfish-device-configuration-halium-qx1050
 Pattern with packages for halium-qx1050 configurations
 

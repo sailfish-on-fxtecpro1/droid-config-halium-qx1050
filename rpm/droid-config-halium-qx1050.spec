@@ -12,6 +12,9 @@
 
 %define out_of_image_files 1
 
+%define native_build 1
+%define disable_tools 1
+
 #Dont set this.  Much of sparse-11 ceoms from halium-config package for us
 #define android_version_major 11
 

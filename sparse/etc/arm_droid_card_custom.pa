@@ -1,0 +1,1 @@
+load-module module-droid-card rate=48000 hw_volume=false

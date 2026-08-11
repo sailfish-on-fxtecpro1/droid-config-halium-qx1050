@@ -1,0 +1,6 @@
+AUTHOR=Adam Pigg
+EMAIL=adam@piggz.co.uk
+BROKEN=Some signal issues (hw related)
+FEATURES=Keyboard, Dual SIM, Borderless screen
+DEVICE=Pro1X
+URL=https://forum.sailfishos.org/t/the-fxtec-pro1x-thread-qx1050/12940
